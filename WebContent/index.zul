@@ -1,0 +1,13 @@
+<?page title="Auto Generated index.zul"?>
+<window title="Property Name" border="normal">
+	<label value="Enter a property name:"/> <textbox id="input"/>
+	<separator></separator>
+	<button label="Press" onClick="result.setValue(input.getValue())"/>
+	<separator></separator>
+	<label id="result"/>
+	
+	<separator></separator>
+	<textbox id="tb" value="${self.parent.title}"/>
+	<zscript>Date now = new Date();</zscript>
+	<datebox value="${now}"/>
+</window>

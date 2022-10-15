@@ -1,0 +1,8 @@
+<window title="Retrieve Value From Composer" border="normal" apply="com.example.property">
+Enter a property name: <textbox id="input"/>
+
+<button label="Retrieve" id="retrieve"/>
+<separator></separator>
+<label id="result"/>
+<separator></separator>
+</window>
